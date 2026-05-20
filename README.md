@@ -96,7 +96,7 @@ L_G = L_pixel + 1e-3 · L_adversarial + 6e-3 · L_perceptual
 
 ```bash
 # 1. Клонировать репозиторий и установить зависимости
-git clone <repo_url>
+git clone https://github.com/dasstann/srgan-lfw
 cd srgan-lfw
 pip install -r requirements.txt
 
