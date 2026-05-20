@@ -1,0 +1,42 @@
+# === Датасет (скачивается автоматически из sklearn) ===
+lfw-deepfunneled/
+scikit_learn_data/
+
+# === Тяжёлые промежуточные чекпоинты (не нужны для воспроизведения) ===
+SRGAN_Final/checkpoints/
+*.pth.tar
+
+# === Python / Jupyter ===
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.ipynb-meta
+
+# === Виртуальные окружения ===
+.venv/
+venv/
+env/
+ENV/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === ОС ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Логи и временные файлы ===
+*.log
+*.tmp
+.cache/
+
+# === Технические артефакты этого проекта (не пушим, оставляем локально) ===
+build_notebook.py
+build_pptx.js
+slide-*.jpg
+cell*.png

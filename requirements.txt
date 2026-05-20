@@ -1,0 +1,24 @@
+# === Core deep learning stack ===
+# PyTorch и torchvision — основа SRGAN (Generator, Discriminator, VGG19 для perceptual loss)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# === Численные вычисления и обработка изображений ===
+numpy>=1.24.0
+Pillow>=9.5.0
+
+# === Метрики качества (PSNR, SSIM) ===
+scikit-image>=0.21.0
+
+# === Загрузка датасета LFW ===
+scikit-learn>=1.3.0
+
+# === Визуализация (loss curves, прогрессия эпох, сравнение Bicubic vs SRGAN) ===
+matplotlib>=3.7.0
+
+# === Jupyter Notebook ===
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# === Опционально: ускорение и удобство ===
+tqdm>=4.65.0
